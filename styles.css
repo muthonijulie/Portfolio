@@ -1,0 +1,158 @@
+*,::before,::after {
+    box-sizing: border-box;
+    margin: o;
+}
+
+body {
+    background-color: blueviolet;
+  
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+  
+}
+.header {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+  align-items: center;
+}
+
+.me {
+  
+  width: 100%;
+  height: 50rem;
+  
+}
+
+.nvbar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    gap: 2rem;
+}
+.nvbar li {
+    float: inline-start;
+  }
+  .nvbar ul {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+  }
+  .nvbar a {
+    color: yellow;
+    text-decoration: none;
+    font: 18px;
+    padding: 10px;
+    display: block;
+    text-align: left;
+    justify-self: end;
+  }.content {
+    margin-top: 0%;
+    font-size: 30px;
+    text-align: justify;
+    color: black;
+    font-family: sans-serif;
+    flex-basis: 60%;
+    top: 25rem;
+  }
+  .content h1 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+  }
+  .content h1 span {
+    color: yellow;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .about-col-1 {
+    flex-basis: 55%;
+    margin-top: 5%;
+  }
+  .about-col-1 img {
+    width: 500%;
+    height: 500%;
+  }
+  .about-col-2 {
+    flex-basis: 10%;
+  } 
+   .aboutcnt{
+    display:flex;
+    flex-direction:column;
+  } 
+  .hd1 {
+    font-family: Verdana;
+    font-weight: 700;
+    color: beige ;
+    
+  } 
+  .row1{
+    text-align: justify;
+    color:black;
+    font-size: 120%;
+    font-weight: 400;
+  }
+  
+  .tab-titles{
+    display:flex;
+    margin:20px 0 ;
+  }
+  .tablink{
+    
+    margin:0px;
+    margin-right:20px;
+    cursor:pointer;
+    position:relative;
+    font-size: larger;
+    font-weight: 500;
+    color:bisque;
+  } 
+  
+  .tab-contents ul li{
+    list-style:none;
+    margin:5px 0;
+  }
+  .tab-contents ul li span{
+    font-weight:400;
+    color:brown;
+  }
+  .tab-contents{
+    display:none;
+  }
+  .tab-contents.active-tab{
+    display:block;
+    margin:0%;
+  
+  }
+  .contact-left{
+    flex-basis:35%;
+  }
+  .contact-right{
+    flex-basis:60%;
+  }
+  .contact-left p{
+    margin-top: 30px;
+  }
+
+  footer {
+    display: flex;
+    gap: 4rem;
+
+  }
+  .icons{
+    height:2rem;
+    width:2rem;
+  
+  }
+  
